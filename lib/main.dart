@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                       },
                       buttonText: buttonText('${index + 1}'),
                       color: Colors.blue[50],
-                      textColor: Colors.black,
+                      textColor: Colors.black
                     );
                   }),
             ),
@@ -200,7 +200,7 @@ class MyButton extends StatelessWidget {
                 buttonText,
                 style: TextStyle(
                   color: textColor,
-                  fontSize: 25,
+                  fontSize: 70,
                   fontWeight: FontWeight.bold,
                 ),
               ),
